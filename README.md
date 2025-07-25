@@ -1,5 +1,7 @@
 # Lightweight State Machine (Java)
 
+using branch : Master
+
 一个轻量级、零依赖的 Java 静态状态机，旨在替代 Spring StateMachine 的重量级设计。
 
 Spring StateMachine 需要为每一个元素（如订单）实例化一个完整的状态机对象以跟踪其状态变化，但在大多数场景下，仅需通过一次性状态查询获取下一个状态并立即销毁。  
